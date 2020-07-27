@@ -15,6 +15,7 @@
 		C9AE234D24CE4E65003290A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AE234B24CE4E65003290A0 /* Main.storyboard */; };
 		C9AE234F24CE4E67003290A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AE234E24CE4E67003290A0 /* Assets.xcassets */; };
 		C9AE235224CE4E67003290A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AE235024CE4E67003290A0 /* LaunchScreen.storyboard */; };
+		C9AE235B24CE4EDF003290A0 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE235A24CE4EDF003290A0 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C9AE234E24CE4E67003290A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9AE235124CE4E67003290A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9AE235324CE4E67003290A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AE235A24CE4EDF003290A0 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +62,42 @@
 		C9AE234024CE4E64003290A0 /* AtomicAge */ = {
 			isa = PBXGroup;
 			children = (
+				C9AE235C24CE4F1D003290A0 /* View Controllers */,
+				C9AE235924CE4EC5003290A0 /* Helper Files */,
 				C9AE234124CE4E64003290A0 /* AppDelegate.swift */,
 				C9AE234324CE4E65003290A0 /* GameScene.sks */,
 				C9AE234524CE4E65003290A0 /* Actions.sks */,
 				C9AE234724CE4E65003290A0 /* GameScene.swift */,
 				C9AE234924CE4E65003290A0 /* GameViewController.swift */,
-				C9AE234B24CE4E65003290A0 /* Main.storyboard */,
+				C9AE235F24CE4F63003290A0 /* Storyboards */,
 				C9AE234E24CE4E67003290A0 /* Assets.xcassets */,
-				C9AE235024CE4E67003290A0 /* LaunchScreen.storyboard */,
 				C9AE235324CE4E67003290A0 /* Info.plist */,
 			);
 			path = AtomicAge;
+			sourceTree = "<group>";
+		};
+		C9AE235924CE4EC5003290A0 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9AE235A24CE4EDF003290A0 /* UIColor+.swift */,
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
+		C9AE235C24CE4F1D003290A0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9AE235F24CE4F63003290A0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C9AE234B24CE4E65003290A0 /* Main.storyboard */,
+				C9AE235024CE4E67003290A0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AE234824CE4E65003290A0 /* GameScene.swift in Sources */,
+				C9AE235B24CE4EDF003290A0 /* UIColor+.swift in Sources */,
 				C9AE234A24CE4E65003290A0 /* GameViewController.swift in Sources */,
 				C9AE234224CE4E64003290A0 /* AppDelegate.swift in Sources */,
 			);
